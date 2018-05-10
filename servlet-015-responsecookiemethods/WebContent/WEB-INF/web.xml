@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>servlet-015-responsecookiemethods</display-name>
+  <servlet>
+    <servlet-name>ResponseCookieMet</servlet-name>
+    <servlet-class>com.doganilbars.ResponseCookieMethods</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResponseCookieMet</servlet-name>
+    <url-pattern>/responsecookiemethod</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ResponseCookieTimeoutCheck</servlet-name>
+    <servlet-class>com.doganilbars.ResponseCookieTimeoutCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResponseCookieTimeoutCheck</servlet-name>
+    <url-pattern>/responsecookietimeoutcheck</url-pattern>
+  </servlet-mapping>
+</web-app>

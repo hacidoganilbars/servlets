@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>servlet-016-responseredirect</display-name>
+  <servlet>
+    <servlet-name>ResponseRedirect</servlet-name>
+    <servlet-class>com.doganilbars.ResponseRedirect</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResponseRedirect</servlet-name>
+    <url-pattern>/responseredirect</url-pattern>
+  </servlet-mapping>
+</web-app>

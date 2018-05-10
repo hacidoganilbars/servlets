@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+<meta charset="UTF-8">
+<title>Request Form Get</title>
+</head>
+<body>
+	<form id="form1" action="requestgetform" method="get">
+
+		<table id="table1" cellspacing="5px" cellpadding="5%">
+			<tr>
+				<td align="right">İsim:</td>
+				<td><input type="text" name="firstName"></td>
+			</tr>
+			<tr>
+				<td align="right">Soy İsim:</td>
+				<td><input type="text" name="lastName"></td>
+			</tr>
+			<tr>
+				<td align="right">Cinsiyet:</td>
+				<td><select name="gender">
+						<option value="Bay" selected="selected">Bay</option>
+						<option value="Bayan">Bayan</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td align="right">Medeni Hal:</td>
+				<td><input type="radio" name="maritalStatus" value="Bekar" />Bekar
+					<input type="radio" name="maritalStatus" value="Bekar" />Evli <input
+					type="radio" name="maritalStatus" value="Bekar" />Dul <input
+					type="radio" name="maritalStatus" value="Bekar" />Javacı:)</td>
+			</tr>
+			<tr>
+				<td align="right">Diller</td>
+				<td><input type="checkbox" name="lang" value="java" />Java <input
+					type="checkbox" name="lang" value="C" />C <input type="checkbox"
+					name="lang" value="C++" />C++ <input type="checkbox" name="lang"
+					value="C#" />C#</td>
+			</tr>
+
+			<tr>
+<!-- 				<td>&nbsp;</td> -->
+				<td><input type="submit" value="Submit" /></td>
+
+			</tr>
+		</table>
+
+	</form>
+</body>
+</html>
