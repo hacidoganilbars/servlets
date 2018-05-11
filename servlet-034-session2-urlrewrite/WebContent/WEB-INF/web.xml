@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>servlet-034-session2-urlrewrite</display-name>
+
+	<servlet>
+		<servlet-name>URLRewrite</servlet-name>
+		<servlet-class>com.doganilbars.urlrewrite.URLRewrite</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>URLRewrite</servlet-name>
+		<url-pattern>/urlrewrite</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>GetSession</servlet-name>
+		<servlet-class>com.doganilbars.urlrewrite.GetSession</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetSession</servlet-name>
+		<url-pattern>/getsession</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>servlet-029-listener-httpsessionattributelistener</display-name>
+
+	<listener>
+		<listener-class>com.doganilbars.session.attribute.HttpSessionAttributeListenerImpl</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>HttpSessionAttributeListenMe</servlet-name>
+		<servlet-class>com.doganilbars.session.attribute.HttpSessionAttributeListenMe</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>HttpSessionAttributeListenMe</servlet-name>
+	<url-pattern>/httpsessionattributelistenme</url-pattern>
+	</servlet-mapping>
+</web-app>

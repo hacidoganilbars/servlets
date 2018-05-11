@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>servlet-039-session03-cookietimeout</display-name>
+
+	<servlet>
+		<servlet-name>CookieTimeOut</servlet-name>
+		<servlet-class>com.doganilbars.CookieTimeOut</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CookieTimeOut</servlet-name>
+		<url-pattern>/cookieTimeOut</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>CookieTimeOutCheck</servlet-name>
+		<servlet-class>com.doganilbars.CookieTimeOutCheck</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CookieTimeOutCheck</servlet-name>
+		<url-pattern>/cookietimeoutcheck</url-pattern>
+	</servlet-mapping>
+
+</web-app>
