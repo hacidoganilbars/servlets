@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="servlet-61-jsp-expressionlanguage2-eloperator">
+    <wb-module deploy-name="servlet-061-jsp-expressionlanguage2-eloperator">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="servlet-61-jsp-expressionlanguage2-eloperator"/>
-        <property name="java-output-path" value="/servlet-61-jsp-expressionlanguage2-eloperator/build/classes"/>
+        <property name="java-output-path" value="/servlet-061-jsp-expressionlanguage2-eloperator/build/classes"/>
+        <property name="context-root" value="servlet-061-jsp-expressionlanguage2-eloperator"/>
     </wb-module>
 </project-modules>
