@@ -50,5 +50,11 @@ jsptaglibrary_2_0.xsd"
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 	</tag>
+	
+	<tag>
+		<name>mySimpleTagName6</name>
+		<tag-class>com.doganilbars.SimpleTagHandler6</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
 
 </taglib>
