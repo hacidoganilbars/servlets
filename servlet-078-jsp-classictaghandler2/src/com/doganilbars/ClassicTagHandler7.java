@@ -76,6 +76,5 @@ public class ClassicTagHandler7 extends BodyTagSupport {
 		} catch (IOException e) {
 			throw new JspException(e.getMessage());
 		}
-
 	}
 }
